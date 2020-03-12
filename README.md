@@ -17,7 +17,8 @@ Test cases:
 
 1. Properly merge overlapping ranges
 2. Properly return non-overlapping ranges
-3. Properly merge overlapping and unsorted ranges
+3. Properly merge overlapping, long ranges
+4. Properly merge overlapping, long, and unsorted ranges
 
 #### Run
 
