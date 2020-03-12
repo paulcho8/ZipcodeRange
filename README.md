@@ -25,6 +25,8 @@ Test cases:
 ```gradle run --args='94133,94133 94200,94299 94200,94399'```
 
 **Please follow the format provided by the examples to test custom ranges.**
+- Each range limit (lower and upper) is separated by one comma (no space).
+- Each range is separated by a single space.
 
 Examples: 
 
