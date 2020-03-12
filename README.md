@@ -22,9 +22,9 @@ Test cases:
 
 #### Run
 
-```gradle run --args='ranges separated by one space'```
+```gradle run --args='94133,94133 94200,94299 94200,94399'```
 
-**Please follow the format provided by the examples below**
+**Please follow the format provided by the examples to test custom ranges.**
 
 Examples: 
 
@@ -65,7 +65,7 @@ Implemented two classes: ```ZipcodeRange``` and ```ZipcodeRangeCollection```.
 
 ```ZipcodeRange``` has two attributes: ```lowerRange ``` and ```higherRange``` that keep track of the lower and upper limits of the zipcode range.
 
-Upon instantiation, the two range limits are "sorted" at O(n) time complexity.
+Upon instantiation, the two range limits are "sorted".
 
 Each ```ZipcodeRange``` is added to a ```rangedList``` to iterate through.
 
