@@ -71,7 +71,7 @@ Each ```ZipcodeRange``` is added to a ```rangedList``` to iterate through.
 
 ```rangedList``` is sorted using a custom comparator prior to merging.
 
-```ZipcodeRangeCollection``` takes the ```rangedList``` and applies a modified quickSort by comparing the previous range's ```higherRange``` with the current range's ```lowerRange```. 
+```ZipcodeRangeCollection``` takes the ```rangedList``` and compares the previous range's ```higherRange``` with the current range's ```lowerRange``` and performs a merge. 
 
 **Logic for performing the merge**
 
@@ -94,4 +94,4 @@ Please reference in code documentation for details.
 
 ###### TIME COMPLEXITY
 
-O(n * log(n))
+O(n * log(n)) for sorting prior to iterating through the list of ranges.
