@@ -3,8 +3,11 @@
 #### Dependenices
 - Java 8+
 
-#### Build
-```gradle build```
+#### Clone the repository
+Create a folder in a directory of your choice
+
+
+```git clone https://gitlab.mynisum.com/pcho/wsi-challenge.git```
 
 #### Testing
 
@@ -18,7 +21,7 @@ Test cases:
 
 #### Run
 
-```gradle run --args='ranges separated b one space'```
+```gradle run --args='ranges separated by one space'```
 
 **Please follow the format provided by the examples below**
 
