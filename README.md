@@ -7,7 +7,7 @@
 Create a folder in a directory of your choice
 
 
-```git clone https://gitlab.mynisum.com/pcho/wsi-challenge.git```
+```git clone https://github.com/eightseconds/ZipcodeRange.git```
 
 #### Testing
 
